@@ -25,17 +25,11 @@
     const balanceTotalElement = document.getElementById("balance-total");
     const previousBalanceTotalString = balanceTotalElement.innerText;
     const previousBalanceTotal = parseFloat(previousBalanceTotalString);
-
     // step-6 calculate current total balance
     const currentBalanceTotal = previousBalanceTotal + newDepositAmount;
     //step -7 set the balance total
     balanceTotalElement.innerText = currentBalanceTotal;
-
-
-
-
     //Step 7 Clear the deposit field
-
     depositField.value ="";
 
 })
